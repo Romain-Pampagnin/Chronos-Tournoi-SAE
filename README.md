@@ -101,6 +101,32 @@ Le programme est fourni avec une base de données vide.
 ## Architecture du projet
 
 ```
+.
+├── ArbitrageTournoiSAE.exe         # exécutable de l'application
+├── ArbitrageTournoiSAE.exe.config  # fichier de configuration de l'application
+├── ArbitrageTournoiSAE.pdb
+├── Assets                          # images utilisées par ce README
+│   ├── database_structure.png
+│   ├── logo_tournoi_SAE.png
+│   ├── logo_tournoi_SAE_v2.jpg
+│   ├── screenshot_global_timer.png
+│   ├── screenshot_leaderboard.png
+│   ├── screenshot_main_window.png
+│   ├── screenshot_pause.png
+│   └── screenshot_resume.png
+├── BDD                             # dossier contenant la base de données
+│   └── bddTournoiSAE.db
+├── Images                          # dossier contenant les éléments graphiques de l'interface
+│   ├── confused_stonks.jpg
+│   └── panel_background.jpg
+├── LICENSE
+├── README.md
+├── System.Data.SQLite.dll          # bibliothèque d'accès à SQLite, nécessaire au fonctionnement
+├── System.Data.SQLite.xml          # documentation de la bibliothèque, non nécessaire à l'exécution
+├── x64                             # composants natifs de SQLite, nécessaires à l'exécution
+│   └── SQLite.Interop.dll
+└── x86                             # composants natifs de SQLite, nécessaires à l'exécution
+    └── SQLite.Interop.dll
 
 ```
 
