@@ -1,0 +1,15 @@
+C:\Users\pampa\source\repos\ArbitrageTournoiSAE\bin\Release\ArbitrageTournoiSAE.exe.config
+C:\Users\pampa\source\repos\ArbitrageTournoiSAE\bin\Release\ArbitrageTournoiSAE.exe
+C:\Users\pampa\source\repos\ArbitrageTournoiSAE\bin\Release\ArbitrageTournoiSAE.pdb
+C:\Users\pampa\source\repos\ArbitrageTournoiSAE\bin\Release\System.Data.SQLite.dll
+C:\Users\pampa\source\repos\ArbitrageTournoiSAE\bin\Release\System.Data.SQLite.xml
+C:\Users\pampa\source\repos\ArbitrageTournoiSAE\obj\Release\ArbitrageTournoiSAE.csproj.AssemblyReference.cache
+C:\Users\pampa\source\repos\ArbitrageTournoiSAE\obj\Release\ArbitrageTournoiSAE.Form1.resources
+C:\Users\pampa\source\repos\ArbitrageTournoiSAE\obj\Release\ArbitrageTournoiSAE.LeatherBoard.resources
+C:\Users\pampa\source\repos\ArbitrageTournoiSAE\obj\Release\ArbitrageTournoiSAE.ucParticipant.resources
+C:\Users\pampa\source\repos\ArbitrageTournoiSAE\obj\Release\ArbitrageTournoiSAE.Properties.Resources.resources
+C:\Users\pampa\source\repos\ArbitrageTournoiSAE\obj\Release\ArbitrageTournoiSAE.csproj.GenerateResource.cache
+C:\Users\pampa\source\repos\ArbitrageTournoiSAE\obj\Release\ArbitrageTournoiSAE.csproj.CoreCompileInputs.cache
+C:\Users\pampa\source\repos\ArbitrageTournoiSAE\obj\Release\Arbitrag.E24BE53C.Up2Date
+C:\Users\pampa\source\repos\ArbitrageTournoiSAE\obj\Release\ArbitrageTournoiSAE.exe
+C:\Users\pampa\source\repos\ArbitrageTournoiSAE\obj\Release\ArbitrageTournoiSAE.pdb
