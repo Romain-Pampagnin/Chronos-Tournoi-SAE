@@ -104,31 +104,46 @@ Le programme est fourni avec une base de données vide.
 .
 ├── ArbitrageTournoiSAE.exe         # exécutable de l'application
 ├── ArbitrageTournoiSAE.exe.config  # fichier de configuration de l'application
-├── ArbitrageTournoiSAE.pdb
+├── ArbitrageTournoiSAE.pdb         # symboles de débogage, non nécessaires à l'exécution
 ├── Assets                          # images utilisées par ce README
-│   ├── database_structure.png
-│   ├── logo_tournoi_SAE.png
-│   ├── logo_tournoi_SAE_v2.jpg
-│   ├── screenshot_global_timer.png
-│   ├── screenshot_leaderboard.png
-│   ├── screenshot_main_window.png
-│   ├── screenshot_pause.png
-│   └── screenshot_resume.png
-├── BDD                             # dossier contenant la base de données
-│   └── bddTournoiSAE.db
-├── Images                          # dossier contenant les éléments graphiques de l'interface
-│   ├── confused_stonks.jpg
-│   └── panel_background.jpg
+│   ├── database_structure.png
+│   ├── logo_tournoi_SAE.png
+│   ├── logo_tournoi_SAE_v2.jpg
+│   ├── screenshot_global_timer.png
+│   ├── screenshot_leaderboard.png
+│   ├── screenshot_main_window.png
+│   ├── screenshot_pause.png
+│   └── screenshot_resume.png
+├── BDD                             # base de données SQLite (vide au départ)
+│   └── bddTournoiSAE.db
+├── Code                            # code source du projet (solution Visual Studio)
+│   ├── ArbitrageTournoiSAE.slnx    # fichier de solution
+│   ├── ArbitrageTournoiSAE.csproj  # fichier de projet C#
+│   ├── App.config                  # configuration de l'application
+│   ├── Program.cs                  # point d'entrée du programme
+│   ├── Form1.cs                    # fenêtre principale (logique)
+│   ├── Form1.Designer.cs           # fenêtre principale (interface, généré par Visual Studio)
+│   ├── Form1.resx                  # ressources de la fenêtre principale
+│   ├── LeatherBoard.cs             # fenêtre du leaderboard (+ .Designer.cs et .resx)
+│   ├── ucParticipant.cs            # contrôle affichant un participant (+ .Designer.cs et .resx)
+│   ├── Properties                  # ressources et paramètres du projet
+│   ├── packages.config             # liste des paquets NuGet utilisés
+│   ├── packages                    # paquets NuGet téléchargés (System.Data.SQLite)
+│   ├── bin                         # fichiers compilés (Debug et Release)
+│   └── obj                         # fichiers temporaires de compilation
+├── Images                          # éléments graphiques de l'interface
+│   ├── confused_stonks.jpg
+│   └── panel_background.jpg
 ├── LICENSE
 ├── README.md
-├── System.Data.SQLite.dll          # bibliothèque d'accès à SQLite, nécessaire au fonctionnement
+├── System.Data.SQLite.dll          # bibliothèque d'accès à SQLite, nécessaire à l'exécution
 ├── System.Data.SQLite.xml          # documentation de la bibliothèque, non nécessaire à l'exécution
-├── x64                             # composants natifs de SQLite, nécessaires à l'exécution
-│   └── SQLite.Interop.dll
-└── x86                             # composants natifs de SQLite, nécessaires à l'exécution
+├── x64                             # composants natifs de SQLite (système 64 bits)
+│   └── SQLite.Interop.dll
+└── x86                             # composants natifs de SQLite (système 32 bits)
     └── SQLite.Interop.dll
-
 ```
+
 
 ---
 ## Retour d'expérience
