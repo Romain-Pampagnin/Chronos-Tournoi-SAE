@@ -22,6 +22,8 @@ Les règles du tournoi sont :
 - le lendemain à 7 h, le tournoi prend fin
 
 Le temps de travail était comptabilisé pour chaque étudiant via ce petit programme, exécuté pendant toute la soirée par un PC dédié.
+<br>
+Le gagnant du tournoi a été <a href="https://github.com/Guyomeuh">Guillaume</a>, gg wp !
 
 <br>
 
